@@ -1,0 +1,38 @@
+
+
+  div.logo {
+    position: static;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #000000;
+  
+  }
+   h1 {
+     text-align: center;
+   }
+  
+   ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  li {
+    float: right;
+  }
+  li a,
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: rgba(52, 59, 248, 0.918);
+  }
+  li.dropdown {
+    display: inline-block;
+  }

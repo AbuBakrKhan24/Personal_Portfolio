@@ -1,0 +1,73 @@
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 20px;
+}
+body {
+  background-color: deepskyblue;
+  background-image: url(./deliver.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+li {
+  float: right;
+}
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(52, 59, 248, 0.918);
+}
+li.dropdown {
+  display: inline-block;
+}
+
+h1 {
+  border-style: groove;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+table {
+  margin: 100px 200px 300px;
+  font-family: fantasy;
+  text-align: center;
+  font-size: 20px;
+}
+.container .btn {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: grey;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+.container .btn:hover {
+  background-color: indianred;
+}

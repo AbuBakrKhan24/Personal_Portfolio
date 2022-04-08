@@ -1,0 +1,108 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+li {
+  float: right;
+}
+li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgba(52, 59, 248, 0.918);
+}
+li.dropdown {
+  display: inline-block;
+}
+foodlayout {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.column {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid black;
+  margin: 1%;
+  position: relative;
+}
+
+img {
+    display:block;
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+h3 {
+  font-family: sans-serif;
+  text-align: center;
+  color: yellow;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: fit-content;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgb(255, 253, 253);
+  background: rgba(255, 255, 255, 0.5);
+  color: black;
+  width: 75%;
+  transition: 0.5s ease;
+  opacity: 0;
+  color: black;
+  font-size: 25px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.column:hover .overlay {
+  opacity: 1;
+}
+
+
+
+body{
+    background-color: antiquewhite;
+}
+
+
