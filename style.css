@@ -1,0 +1,147 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box  ;
+    scroll-behavior: smooth;
+}
+
+
+/* CSS Reset Done */
+
+/* headings */
+
+#h1, #h2 {
+    color: white;
+    font-size: 45px;
+
+}
+
+.secthead{ 
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+/* End of Headings */
+
+
+
+/* body */
+#backgroundvid{
+    position: absolute;
+    max-height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+
+.background{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+#page_2{
+    
+    display: flex;
+    padding: 50px 0px ;
+    background-color: black;
+
+}
+
+
+/* About Section */
+#img{
+    width: 50%;
+    padding: 5px 10px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.about_text{
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+    color: white;
+    font-size: larger;
+}
+
+.About{
+    border-bottom: 3px solid darkblue;
+}
+
+/* About Section end */
+
+/* Skills section */
+
+#Skills{
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+i{
+    color: aqua;
+    background-color: black;
+}
+
+
+/* Skills section end */
+
+
+ /*body done  */
+
+
+/* navbar */
+
+.navbar{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    
+  }
+  li {
+    float: right;
+  }
+  li a,
+  .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover,
+  .dropdown:hover .dropbtn {
+    background-color: rgba(52, 59, 248, 0.918);
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  /* navbar done */
+
+
