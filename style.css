@@ -16,7 +16,7 @@
     position: fixed;
     min-width: 300px;
     background-color: #040b14;
-    color: antiquewhite;
+    color: white;
     top: 0;
     bottom: 0;
 }
@@ -77,14 +77,14 @@ a:link {
 }
 
 .social_links a {
+    display: flex;
+    justify-content: space-between;
     font-size: 18px;
     background: #212431;
     color: #fff;
-    line-height: 1;
     padding: 10px;
-    margin-right: 4px;
+    margin-right: 7px;
     border-radius: 50%;
-    text-align: center;
     width: 36px;
     height: 36px;
     transition: 0.3s;
@@ -116,9 +116,43 @@ ul.nav-menu{
 
 /* Content */
 #content{
-    margin-left: 20%;
+    margin-left: 300px;
     }
+
+section:nth-of-type(even) {
+    background-color: #149ddd;
+}
+
+section:nth-of-type(odd) {
+    background-color:aquamarine;
+}
 section {
     min-height: 100vh;
 }
 
+/* Page 1 Main Page */
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./pics/me.jpg);
+    background-size: cover;
+}
+
+#page1 h1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+  }
+
+#page1 p{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+}
+
+
+/* Page 1 done */
