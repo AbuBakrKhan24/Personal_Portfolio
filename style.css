@@ -8,7 +8,9 @@
     scroll-behavior: smooth;
 }
 /* CSS Reset Done */
-
+ body{
+     display: flex;
+ }
 
 /* Navbar styles */
 
@@ -116,22 +118,49 @@ ul.nav-menu{
 
 
 /* Content */
+
+/* Button stuff */
+button{
+min-width: 25px;
+min-height: 25px;
+}
+
+
+div#hb {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+    /* display: none; */
+}
+
+/* Button Stuff done */
+
 #content{
     margin-left: 300px;
     }
 
+#content h2 {
+  font-family: "Raleway", sans-serif;
+  color: #173B6C;
+  text-decoration: underline #149DDD;
+  font-size: 32px;
+}
+#content h3 {
+  font-family: "Raleway", sans-serif;
+  color: #173B6C;
+  font-size: 26px;
+}
+#content p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+
 section {
     min-height: 100vh;
+    padding: 60px 0;
+    background-color: white;
 }
-section:nth-of-type(odd) {
-    
-    background-color: aquamarine;   
-}
-
-section:nth-of-type(even){
-    background-color: #149ddd;
-}
-
 
 /* Page 1 Main Page */
 
@@ -140,6 +169,7 @@ section:nth-of-type(even){
     height: 100vh;
     background: url(./pics/amr-taha-2WkH6lo-ZC8-unsplash.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #page1 h1{
@@ -170,6 +200,119 @@ section:nth-of-type(even){
 
 /* Page 1 done */
 
+/* Page 2 About */
+
+.section-title {
+    padding-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+}
+
+div.container{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+.img.me_pic {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/* Content details */
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+ul i{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #149ddd;
+    line-height: 0;
+}
+
+ul strong{
+    margin-right: 10px;
+}
+
+.column {
+    margin-top: 20px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+    columns: 2;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .img {
+    display: flex;
+}
+
+.details {
+    padding-top: 20px;
+    display: flex;
+}
+
+.content h3 p {
+    
+}
+/* Page 2 About done */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media (max-width: 1020px) {
@@ -180,4 +323,9 @@ section:nth-of-type(even){
 @media (max-width: 1020px) {
     #content{
         margin-left: -300px;}
+    }
+
+@media (max-width: 1020px) {
+    div#hb{
+        display: -moz-box; }
     }
