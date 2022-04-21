@@ -19,6 +19,7 @@
     color: antiquewhite;
     top: 0;
     bottom: 0;
+    scroll-behavior: smooth;
 }
 
 li.nav_link {
@@ -131,3 +132,52 @@ section:nth-of-type(even){
     background-color: #149ddd;
 }
 
+
+/* Page 1 Main Page */
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background: url(./pics/amr-taha-2WkH6lo-ZC8-unsplash.jpg);
+    background-size: cover;
+}
+
+#page1 h1{
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    text-shadow: 4px 4px 4px #ce5937;
+    font-family: 'Inter', sans-serif;
+  }
+
+#page1 p{
+    color: #fff;
+    text-shadow: 4px 4px 4px #ce5937;
+    margin-bottom: 50px;
+    font-size: 26px;
+}
+
+.page1_container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Page 1 done */
+
+
+
+@media (max-width: 1020px) {
+    #navbar {
+      left: -300px;}
+    }
+
+@media (max-width: 1020px) {
+    #content{
+        margin-left: -300px;}
+    }
