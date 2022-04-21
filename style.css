@@ -116,9 +116,18 @@ ul.nav-menu{
 
 /* Content */
 #content{
-    margin-left: 20%;
+    margin-left: 300px;
     }
+
 section {
     min-height: 100vh;
+}
+section:nth-of-type(odd) {
+    
+    background-color: aquamarine;   
+}
+
+section:nth-of-type(even){
+    background-color: #149ddd;
 }
 
