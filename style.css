@@ -16,7 +16,7 @@
     position: fixed;
     min-width: 300px;
     background-color: #040b14;
-    color: antiquewhite;
+    color: white;
     top: 0;
     bottom: 0;
     scroll-behavior: smooth;
@@ -78,14 +78,14 @@ a:link {
 }
 
 .social_links a {
+    display: flex;
+    justify-content: space-between;
     font-size: 18px;
     background: #212431;
     color: #fff;
-    line-height: 1;
     padding: 10px;
-    margin-right: 4px;
+    margin-right: 7px;
     border-radius: 50%;
-    text-align: center;
     width: 36px;
     height: 36px;
     transition: 0.3s;
