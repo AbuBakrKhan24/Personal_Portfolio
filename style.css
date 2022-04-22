@@ -142,13 +142,15 @@ div#hb {
 #content h2 {
   font-family: "Raleway", sans-serif;
   color: #173B6C;
-  text-decoration: underline #149DDD;
+  border-bottom: 3px solid #149DDD;
+  width: 100px;
   font-size: 32px;
 }
 #content h3 {
   font-family: "Raleway", sans-serif;
   color: #173B6C;
   font-size: 26px;
+  margin-bottom: 10px;
 }
 #content p {
   font-family: "Open Sans", sans-serif;
@@ -229,6 +231,19 @@ div.container{
 
 
 /* Content details */
+button {
+    right: 30px;
+    position: fixed;
+    right: 30px;
+    position: fixed;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #149DDD;
+    color: white;
+    display: none;
+}
 
 ul {
     list-style: none;
@@ -260,45 +275,60 @@ ul strong{
     font-family: "Open Sans", sans-serif;
   }
 
-  .img {
+  .img-content {
     display: flex;
+}
+
+img.me_pic {
+    padding-right: 20px;
 }
 
 .details {
     padding-top: 20px;
-    display: flex;
 }
 
-.content h3 p {
-    
+/* facts */
+
+.facts .count-box {
+    padding: 30px;
+    width: 100%;
 }
+
+.facts .count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+}
+
+.facts .count-box i {
+    display: block;
+    font-size: 44px;
+    color: #149ddd;
+    float: left;
+    line-height: 0;
+}
+
+.facts .count-box span {
+    font-size: 48px;
+    line-height: 40px;
+    display: block;
+    font-weight: 700;
+    color: #050d18;
+    margin-left: 60px;
+}
+
+.facts .count-box p {
+    padding: 15px 0 0 0;
+    margin: 0 0 0 60px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    color: #122f57;
+}
+
+
 /* Page 2 About done */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -329,3 +359,10 @@ ul strong{
     div#hb{
         display: -moz-box; }
     }
+
+@media (max-width: 1020px) {
+    button {
+        display: block;
+    }
+    
+}    
