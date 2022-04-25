@@ -220,6 +220,7 @@ section {
 div.container{
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 5%;
 }
 
 
@@ -294,20 +295,12 @@ img.me_pic {
     width: 100%;
 }
 
-.facts .count-box i {
-    display: block;
-    font-size: 44px;
-    color: #149ddd;
-    float: left;
-    line-height: 0;
-}
 
 .facts .count-box i {
     display: block;
     font-size: 44px;
     color: #149ddd;
     float: left;
-    line-height: 0;
 }
 
 .facts .count-box span {
@@ -327,6 +320,9 @@ img.me_pic {
     color: #122f57;
 }
 
+.row {
+    display: flex;
+}
 
 /* Page 2 About done */
 
