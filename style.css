@@ -160,8 +160,9 @@ div#hb {
 
 section {
     min-height: 100vh;
-    padding: 60px 0;
+    padding: 30px 0;
     background-color: white;
+    padding: 20px;
 }
 
 /* Page 1 Main Page */
@@ -206,6 +207,7 @@ section {
 
 .section-title {
     padding-bottom: 30px;
+    padding-top: 30px;
 }
 
 .section-title h2 {
@@ -218,11 +220,13 @@ section {
 }
 
 div.container{
-    padding-left: 5%;
+    padding-left: 10px;
     padding-right: 5%;
-    padding-top: 5%;
 }
 
+.container {
+    padding-left: 0px;
+}
 
 .img.me_pic {
     max-width: 100%;
@@ -246,6 +250,7 @@ button {
     display: none;
 }
 
+
 ul {
     list-style: none;
 }
@@ -254,6 +259,8 @@ li {
     margin-bottom: 20px;
     display: flex;
     align-items: center;
+    /* white-space: break-spaces; */
+    flex-wrap: wrap;
 }
 
 ul i{
@@ -291,7 +298,7 @@ img.me_pic {
 /* facts */
 
 .facts .count-box {
-    padding: 30px;
+    padding: 15px;
     width: 100%;
 }
 
@@ -324,14 +331,15 @@ img.me_pic {
     display: flex;
 }
 
+.content {
+    padding-top: 20px;
+}
+
+/* Skills */
+progress {
+    width: 100%;
+}
 /* Page 2 About done */
-
-
-
-
-
-
-
 
 
 
@@ -348,12 +356,20 @@ img.me_pic {
 
 @media (max-width: 1020px) {
     #content{
-        margin-left: -300px;}
+        width: 100%;
+        margin-left: 0;}   
     }
 
 @media (max-width: 1020px) {
-    div#hb{
-        display: -moz-box; }
+    .img-content {
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .column {
+        display: flex;
+    }
     }
 
 @media (max-width: 1020px) {
